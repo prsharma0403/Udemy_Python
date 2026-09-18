@@ -1,0 +1,26 @@
+[project]
+name = "udemy-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "pandas>=3.0.5",
+    "chromadb>=1.0.13",
+    "faiss-cpu>=1.11.0",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.26",
+    "langchain-groq>=0.3.4",
+    "pypdf>=5.7.0",
+    "python-dotenv>=1.1.1",
+    "sentence-transformers>=4.1.0",
+    "tiktoken>=0.9.0",
+]
+
+[project.scripts]
+udemy-python = "udemy_python:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
