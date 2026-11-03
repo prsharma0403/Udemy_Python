@@ -3,9 +3,17 @@ langchain-groq
 faiss-cpu
 tiktoken
 langchain-community
+langchain-text-splitters
+llama-index-readers-file
+llama-index-embeddings-huggingface
+llama-index-llms-openai-like
+llama-index-llms-groq
 langchain-openai
+llama-index-vector-stores-chroma
+llama-index-vector-stores-pinecone
 chromadb
 sentence-transformers
 pypdf
 python-dotenv
 pymupdf
+pandas>=2.3.0,<3
